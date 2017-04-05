@@ -26,8 +26,8 @@ logFit <- FALSE
 #logFit <- TRUE
 ##
 ###read data
-tab <- read.table('all_matchcornish_flux_higal5bands.txt',header=TRUE)
-#tab <- read.table('data/test.txt',header=TRUE)
+#tab <- read.table('all_matchcornish_flux_higal5bands.txt',header=TRUE)
+tab <- read.table('data/test.txt',header=TRUE)
 for(kk in 1:nrow(tab)){
 ind <- kk
 Nc <- ncol(tab)
